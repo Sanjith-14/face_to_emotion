@@ -44,9 +44,9 @@ def detect_emotion(image):
 
     return None
 
-@app.route('/hello', methods=['GET'])
+@app.route('/', methods=['GET'])
 def hello():
-    return jsonify({'message': 'Hello, World!'})
+    return jsonify({'message': 'Welcome to Mental wellbeing platform, Use /image/emotion to get ur emotion with a url'})
 
 @app.route('/image/emotion', methods=['POST'])
 def analyze_emotion():

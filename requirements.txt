@@ -1,0 +1,6 @@
+Flask
+opencv-python
+keras
+numpy
+requests
+tensorflow
