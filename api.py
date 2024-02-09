@@ -73,4 +73,4 @@ def analyze_emotion():
         return jsonify({'error': 'No face detected or unable to determine emotion'}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8000)
